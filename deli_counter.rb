@@ -22,3 +22,4 @@ static+="#{index_to_i+1}.#{value}"
 end
 puts "#{message}"
 end
+end
