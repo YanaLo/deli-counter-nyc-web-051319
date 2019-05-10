@@ -18,7 +18,7 @@ def line(katz_deli)
 else
 static="The line is currently:"
 katz_deli.each.with_index(1) do |value,i|
-static<<"#{i}.#{value}"
+static<<" #{i}. #{value}"
 end
 puts static
 end
