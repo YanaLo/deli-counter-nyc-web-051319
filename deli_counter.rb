@@ -13,13 +13,13 @@ end
 end
 
 def line(katz_deli)
-  if katz_deli.length==0 
+  if katz_deli.empty?
   puts "The line is currently empty."
 else
 static="The line is currently:"
-katz_deli.each_with_index do |value,i|
-static+="#{index_to_i+1}.#{value}"
+katz_deli.each.with_index(1) do |value,i|
+static<<"#{i}.#{value}"
 end
-puts "#{message}"
+puts static
 end
 end
